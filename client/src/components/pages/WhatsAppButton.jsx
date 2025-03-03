@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-6 right-6 lg:right-10 z-50">
       {/* WhatsApp Floating Button */}
       <button
         onClick={() => setOpen(!open)}
@@ -16,13 +16,13 @@ const WhatsAppButton = () => {
 
       {/* WhatsApp Chat Popup */}
       {open && (
-        <div className="bottom-20 right-0 bg-white shadow-lg p-4 rounded-lg w-64">
+        <div className="absolute bottom-16 right-0 bg-white shadow-lg p-4 rounded-lg w-64">
           <p className="text-lg font-semibold">Chat with us on WhatsApp</p>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919876543210" // Change to your number
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+            className="mt-2 inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
           >
             Start Chat
           </a>

@@ -104,7 +104,6 @@ const ContactUs = () => {
   return (
     <div className="w-full min-h-screen bg-white py-6 pt-20 sm:pt-24 pb-6 sm:pb-10 flex justify-center">
       <div className="max-w-screen-lg w-full text-center">
-        {/* Heading */}
         <p className="text-5xl font-bold text-gray-800 border-gray-300 mb-6">
           Contact Us
         </p>
@@ -113,9 +112,7 @@ const ContactUs = () => {
           member of our support team will review and respond promptly to your
           request.
         </p>
-        {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left Section - Contact Form */}
           <div className="p-8 shadow-lg rounded-lg items-start lg:pr-11">
             <form onSubmit={Submithandler} className="flex flex-col space-y-6">
               <input
@@ -145,7 +142,7 @@ const ContactUs = () => {
                 required
                 className="p-4 text-lg w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 transition"
               />
-              {/* Display error message for number validation */}
+
               {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
               <textarea
                 name="message"
@@ -199,7 +196,6 @@ const ContactUs = () => {
             </div>
           </div>
         </div>{" "}
-        {/* End of Grid Layout */}
       </div>
     </div>
   );

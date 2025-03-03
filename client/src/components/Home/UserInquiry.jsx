@@ -1,6 +1,7 @@
 import React from "react";
 import image from "/src/assets/enquiry.png";
 import { Link } from "react-router-dom";
+
 const UserInquiry = () => {
   return (
     <div className="pt-12">
@@ -17,10 +18,10 @@ const UserInquiry = () => {
 
           {/* Text Section */}
           <div className="text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl text-white font-bold">
               Need help? We’re here!
             </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl text-white font-semibold mt-6 sm:mt-8">
+            <p className="text-base sm:text-lg lg:text-base text-white font-semibold mt-6 sm:mt-8">
               Whether you have questions about features, customizations, trials,
               pricing, need a demo, or anything else, our support team is ready
               to answer all your queries regarding our online GST billing
@@ -28,11 +29,11 @@ const UserInquiry = () => {
             </p>
 
             {/* Buttons */}
-            <div className="mt-8 flex flex-col sm:flex-row items-center sm:justify-center lg:justify-start gap-4 sm:gap-6">
-              <button className="w-full sm:w-auto px-7 py-3 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg rounded-lg transition duration-300 border-2 border-gray-600">
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center sm:justify-center lg:justify-start gap-4 sm:gap-6">
+              <button className="w-full sm:w-auto px-5 py-2 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg lg:text-base rounded-lg transition duration-300 border-2 border-gray-600">
                 <Link to="/contactus">Contact Us</Link>
               </button>
-              <button className="w-full sm:w-auto px-7 py-3 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg rounded-lg transition duration-300 border-2 border-gray-600">
+              <button className="w-full sm:w-auto px-5 py-2 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg lg:text-base rounded-lg transition duration-300 border-2 border-gray-600">
                 Book Demo
               </button>
             </div>

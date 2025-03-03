@@ -7,7 +7,7 @@ const Features = () => {
     <div className="py-12 bg-gray-200 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <h2 className="font-bold text-3xl sm:text-5xl lg:text-6xl text-center leading-tight">
+        <h2 className="font-bold text-3xl sm:text-5xl lg:text-5xl text-center leading-tight">
           Features of GST Billing and Accounting Software
         </h2>
 
@@ -21,7 +21,7 @@ const Features = () => {
                     className="text-green-500 flex-shrink-0"
                     size={30}
                   />
-                  <span className="text-gray-700 text-lg sm:text-xl lg:text-2xl font-semibold">
+                  <span className="text-gray-700 text-lg sm:text-xl lg:text-xl font-semibold">
                     {feature}
                   </span>
                 </li>
