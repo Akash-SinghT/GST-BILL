@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "*",
+    origin: process.env.URL,
     methods: ["POST"],
     credentials: true,
   })
