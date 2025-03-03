@@ -26,7 +26,7 @@ const SignUp = () => {
     }
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/signup",
+        "https://gst-bill-2dy0.onrender.com/api/signup",
         formData,
         {
           headers: {

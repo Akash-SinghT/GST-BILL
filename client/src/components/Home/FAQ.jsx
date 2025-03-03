@@ -10,7 +10,7 @@ const FAQ = () => {
   };
 
   return (
-    <div id="faq" className="py-12 rounded-xl">
+    <div id="faq" className="py-8 rounded-xl">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-900">
           Frequently Asked Questions

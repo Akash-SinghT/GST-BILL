@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/login",
+        "https://gst-bill-2dy0.onrender.com/api/login",
         formData,
         {
           headers: {

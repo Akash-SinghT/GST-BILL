@@ -4,7 +4,7 @@ import image from "/src/assets/Gstimage.png";
 const AboutUs = () => {
   return (
     <div id="aboutus" className="py-8 px-4 sm:px-8 lg:px-16 lg:py-24">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-center mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24 items-center mt-12">
         {/* Left Content */}
         <div className="text-center sm:text-start lg:ml-16">
           <h1 className="font-extrabold text-3xl sm:text-5xl lg:text-6xl">

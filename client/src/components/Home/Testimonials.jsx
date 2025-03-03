@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 const Testimonials = () => {
   return (
     <div id="reviews" className="py-12">
-      <div className="mt-10">
+      <div className="mt-7">
         <h1 className="font-bold text-4xl text-center mb-10 lg:text-4xl">
           See What Our Users Say
         </h1>
