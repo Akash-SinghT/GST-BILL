@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/login",
+        "https://gst-bill-2dy0.onrender.com/api/login",
         formData,
         {
           headers: {
@@ -87,7 +87,7 @@ const Login = () => {
 
         {/* Signup Redirect */}
         <p className="text-center text-gray-600 mt-4">
-          Already have an account?{" "}
+          Don't have an account?{" "}
           <Link to="/signup" className="text-blue-600">
             Sign up
           </Link>

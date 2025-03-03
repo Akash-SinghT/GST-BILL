@@ -75,7 +75,7 @@ const ContactUs = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/contact",
+        "https://gst-bill-2dy0.onrender.com/api/contact",
         formData,
         {
           headers: {
