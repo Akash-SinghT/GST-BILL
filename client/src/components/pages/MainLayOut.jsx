@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Home/Navbar";
 import { Outlet } from "react-router-dom";
-import WhatsAppButton from "./WhatsAppButton"; // Import the WhatsApp button component
+import WhatsAppButton from "./WhatsAppButton";
 
 const MainLayOut = () => {
   return (
@@ -10,7 +10,6 @@ const MainLayOut = () => {
       <div>
         <Outlet />
       </div>
-      {/* WhatsApp Button: Always visible on all pages */}
       <WhatsAppButton />
     </div>
   );
