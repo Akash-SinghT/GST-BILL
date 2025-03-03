@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../../utils/Features.js";
+import { features } from "../../utils/features.js";
 import { SiCachet } from "react-icons/si";
 
 const Features = () => {
