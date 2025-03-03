@@ -25,16 +25,12 @@ const SignUp = () => {
       return;
     }
     try {
-      const res = await axios.post(
-        "https://gst-bill-2dy0.onrender.com/api/signup",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-          withCredentials: true,
-        }
-      );
+      const res = await axios.post("", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+        withCredentials: true,
+      });
 
       if (res.data.success) {
         toast.success(res.data.message);
