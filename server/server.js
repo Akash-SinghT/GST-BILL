@@ -17,7 +17,7 @@ app.use(
   })
 );
 
-// Routes
+// Routes chnages
 app.use("/api", router);
 
 // Start server
