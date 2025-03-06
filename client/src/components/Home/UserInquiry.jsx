@@ -30,9 +30,11 @@ const UserInquiry = () => {
 
             {/* Buttons */}
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center sm:justify-center lg:justify-start gap-4 sm:gap-6">
+              <Link to="/contactus">
               <button className="w-full sm:w-auto px-5 py-2 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg lg:text-base rounded-lg transition duration-300 border-2 border-gray-600">
-                <Link to="/contactus">Contact Us</Link>
+                Contact Us
               </button>
+                </Link>
               <button className="w-full sm:w-auto px-5 py-2 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg lg:text-base rounded-lg transition duration-300 border-2 border-gray-600">
                 Book Demo
               </button>
