@@ -35,9 +35,11 @@ const UserInquiry = () => {
                 Contact Us
               </button>
                 </Link>
+              <Link to="/contactus">
               <button className="w-full sm:w-auto px-5 py-2 bg-white hover:bg-gray-500 text-gray-900 hover:text-white font-bold text-lg lg:text-base rounded-lg transition duration-300 border-2 border-gray-600">
                 Book Demo
               </button>
+                </Link>
             </div>
           </div>
         </div>
